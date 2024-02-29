@@ -80,7 +80,5 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
-  database: teamup_production
-  username: teamup
-  password: <%= ENV["TEAMUP_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
+
