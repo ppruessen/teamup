@@ -220,23 +220,23 @@ user11.save!
 print '*'
 STDOUT.flush
 
-user12photo = URI.open("https://media.licdn.com/dms/image/C4E03AQFHEhWccAlAJQ/profile-displayphoto-shrink_200_200/0/1606921067352?e=1692230400&v=beta&t=1hdHXIgL8Fg3uIZFjNJaPpjVGSRDNttMpuVo363TmWA")
-user12 = User.new(
-  {
-    email: "marcela@test.com",
-    first_name: "Marcela",
-    last_name: "Morau",
-    nickname: "mighty-marcela",
-    city: "Berlin",
-    bio: "Marcela here! Exploring the digital universe with LeWagon's Ruby on Rails Fullstack Bootcamp. When not coding, I'm either at a pottery class or playing with my two golden retrievers. I'm all about indigo and sunflower yellow - they feed my creative spirit. Code, create, and play fetch!",
-    password: "123456"
-  }
-)
-user12.photo.attach(io: user12photo, filename: "user12.png", content_type: "image/png")
-user12.save!
+# user12photo = URI.open("https://media.licdn.com/dms/image/C4E03AQFHEhWccAlAJQ/profile-displayphoto-shrink_200_200/0/1606921067352?e=1692230400&v=beta&t=1hdHXIgL8Fg3uIZFjNJaPpjVGSRDNttMpuVo363TmWA")
+# user12 = User.new(
+#   {
+#     email: "marcela@test.com",
+#     first_name: "Marcela",
+#     last_name: "Morau",
+#     nickname: "mighty-marcela",
+#     city: "Berlin",
+#     bio: "Marcela here! Exploring the digital universe with LeWagon's Ruby on Rails Fullstack Bootcamp. When not coding, I'm either at a pottery class or playing with my two golden retrievers. I'm all about indigo and sunflower yellow - they feed my creative spirit. Code, create, and play fetch!",
+#     password: "123456"
+#   }
+# )
+# user12.photo.attach(io: user12photo, filename: "user12.png", content_type: "image/png")
+# user12.save!
 
-print '*'
-STDOUT.flush
+# print '*'
+# STDOUT.flush
 
 user13photo = URI.open("https://media.licdn.com/dms/image/C4D03AQHQOgGbmMK_ag/profile-displayphoto-shrink_800_800/0/1555509383375?e=2147483647&v=beta&t=cdQtRuha86hggLvoa46bpc5jAAlIrYKl1F5LIllGWX8")
 user13 = User.new(
