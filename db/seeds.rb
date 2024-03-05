@@ -38,6 +38,7 @@ user1.photo.attach(io: user1photo, filename: "user1.png", content_type: "image/p
 user1.save!
 
 print '*'
+puts "1"
 STDOUT.flush
 
 user2photo = URI.open("https://source.unsplash.com/YRJsMa72UDw/600x600")
@@ -56,6 +57,7 @@ user2.photo.attach(io: user2photo, filename: "user2.png", content_type: "image/p
 user2.save!
 
 print '*'
+puts "2"
 STDOUT.flush
 
 user3photo = URI.open("https://source.unsplash.com/YUu9UAcOKZ4/600x600")
@@ -74,6 +76,7 @@ user3.photo.attach(io: user3photo, filename: "user3.png", content_type: "image/p
 user3.save!
 
 print '*'
+puts "3"
 STDOUT.flush
 
 user4photo = URI.open("https://source.unsplash.com/zNWlX5Sw9a4/600x600")
@@ -92,6 +95,7 @@ user4.photo.attach(io: user4photo, filename: "user4.png", content_type: "image/p
 user4.save!
 
 print '*'
+puts "4"
 STDOUT.flush
 
 user5photo = URI.open("https://source.unsplash.com/hh3ViD0r0Rc/600x600")
@@ -110,6 +114,7 @@ user5.photo.attach(io: user5photo, filename: "user5.png", content_type: "image/p
 user5.save!
 
 print '*'
+puts "5"
 STDOUT.flush
 
 user6photo = URI.open("https://source.unsplash.com/n5aE6hOY6do/600x600")
@@ -128,6 +133,7 @@ user6.photo.attach(io: user6photo, filename: "user6.png", content_type: "image/p
 user6.save!
 
 print '*'
+puts "6"
 STDOUT.flush
 
 user7photo = URI.open("https://source.unsplash.com/7YVZYZeITc8/600x600")
@@ -146,6 +152,7 @@ user7.photo.attach(io: user7photo, filename: "user7.png", content_type: "image/p
 user7.save!
 
 print '*'
+puts "7"
 STDOUT.flush
 
 user8photo = URI.open("https://source.unsplash.com/W7b3eDUb_2I/600x600")
@@ -164,6 +171,7 @@ user8.photo.attach(io: user8photo, filename: "user8.png", content_type: "image/p
 user8.save!
 
 print '*'
+puts "8"
 STDOUT.flush
 
 user9photo = URI.open("https://source.unsplash.com/sibVwORYqs0/600x300")
@@ -182,6 +190,7 @@ user9.photo.attach(io: user9photo, filename: "user9.png", content_type: "image/p
 user9.save!
 
 print '*'
+puts "9"
 STDOUT.flush
 
 user10photo = URI.open("https://source.unsplash.com/rDEOVtE7vOs/600x300")
@@ -200,6 +209,7 @@ user10.photo.attach(io: user10photo, filename: "user10.png", content_type: "imag
 user10.save!
 
 print '*'
+puts "10"
 STDOUT.flush
 
 user11photo = URI.open("https://media.licdn.com/dms/image/C4D03AQGU-XlmQNogxQ/profile-displayphoto-shrink_800_800/0/1524860667185?e=2147483647&v=beta&t=g4YPWlML1mCXc-iFhZ1Ae0p-RTEAue_EDz-0JSVGzkg")
@@ -218,27 +228,29 @@ user11.photo.attach(io: user11photo, filename: "user11.png", content_type: "imag
 user11.save!
 
 print '*'
+puts "11"
 STDOUT.flush
 
-# user12photo = URI.open("https://media.licdn.com/dms/image/C4E03AQFHEhWccAlAJQ/profile-displayphoto-shrink_200_200/0/1606921067352?e=1692230400&v=beta&t=1hdHXIgL8Fg3uIZFjNJaPpjVGSRDNttMpuVo363TmWA")
-# user12 = User.new(
-#   {
-#     email: "marcela@test.com",
-#     first_name: "Marcela",
-#     last_name: "Morau",
-#     nickname: "mighty-marcela",
-#     city: "Berlin",
-#     bio: "Marcela here! Exploring the digital universe with LeWagon's Ruby on Rails Fullstack Bootcamp. When not coding, I'm either at a pottery class or playing with my two golden retrievers. I'm all about indigo and sunflower yellow - they feed my creative spirit. Code, create, and play fetch!",
-#     password: "123456"
-#   }
-# )
-# user12.photo.attach(io: user12photo, filename: "user12.png", content_type: "image/png")
-# user12.save!
+user12photo = URI.open("https://media.licdn.com/dms/image/C4D03AQGU-XlmQNogxQ/profile-displayphoto-shrink_800_800/0/1524860667185?e=2147483647&v=beta&t=g4YPWlML1mCXc-iFhZ1Ae0p-RTEAue_EDz-0JSVGzkg")
+user12 = User.new(
+  {
+    email: "marcela@test.com",
+    first_name: "Marcela",
+    last_name: "Morau",
+    nickname: "mighty-marcela",
+    city: "Berlin",
+    bio: "Marcela here! Exploring the digital universe with LeWagon's Ruby on Rails Fullstack Bootcamp. When not coding, I'm either at a pottery class or playing with my two golden retrievers. I'm all about indigo and sunflower yellow - they feed my creative spirit. Code, create, and play fetch!",
+    password: "123456"
+  }
+)
+user12.photo.attach(io: user12photo, filename: "user12.png", content_type: "image/png")
+user12.save!
 
-# print '*'
-# STDOUT.flush
+print '*'
+puts "12"
+STDOUT.flush
 
-user13photo = URI.open("https://media.licdn.com/dms/image/C4D03AQHQOgGbmMK_ag/profile-displayphoto-shrink_800_800/0/1555509383375?e=2147483647&v=beta&t=cdQtRuha86hggLvoa46bpc5jAAlIrYKl1F5LIllGWX8")
+user13photo = URI.open("https://media.licdn.com/dms/image/D4D03AQHYqQUzf7VWNA/profile-displayphoto-shrink_800_800/0/1671007808243?e=2147483647&v=beta&t=tujaP5_rmv0PXNr1iEHppaXDYi4Hphpyb5vlbml8CaU")
 user13 = User.new(
   {
     email: "loic@test.com",
@@ -254,6 +266,7 @@ user13.photo.attach(io: user13photo, filename: "user13.png", content_type: "imag
 user13.save!
 
 print '*'
+puts "13"
 STDOUT.flush
 
 user14photo = URI.open("https://media.licdn.com/dms/image/D4D03AQHYqQUzf7VWNA/profile-displayphoto-shrink_800_800/0/1671007808243?e=2147483647&v=beta&t=tujaP5_rmv0PXNr1iEHppaXDYi4Hphpyb5vlbml8CaU")
@@ -274,6 +287,7 @@ user14.save!
 
 
 print '*'
+puts "14"
 puts "Done"
 puts ""
 
@@ -1600,7 +1614,7 @@ user16.save!
 print '*'
 STDOUT.flush
 
-user17photo = URI.open("https://media.licdn.com/dms/image/D4E03AQFIB4E-Zgvf0w/profile-displayphoto-shrink_800_800/0/1676574564365?e=2147483647&v=beta&t=M0sjZnYh06WYyUnEc0lyhrQObf9b-sTtStVlZCgok0k")
+user17photo = URI.open("https://media.licdn.com/dms/image/D4E03AQGXNa9Ghzna5w/profile-displayphoto-shrink_800_800/0/1664445068836?e=2147483647&v=beta&t=pIEtXJPQxge250hWYZVgV8Dg-P5aG0YchJuGbbkyZmw")
 user17 = User.new(
   {
     email: "emre@test.com",
@@ -1673,7 +1687,7 @@ user20.save!
 print '*'
 STDOUT.flush
 
-user21photo = URI.open("https://media.licdn.com/dms/image/C4D03AQG8GLgirDLtWg/profile-displayphoto-shrink_800_800/0/1636644330140?e=1692230400&v=beta&t=O8qOMTI3nt1nxRerXRxiJ30EEUE-ytebDmLRrcpdbdc")
+user21photo = URI.open("https://media.licdn.com/dms/image/C4D03AQEupLdAhJ3JnQ/profile-displayphoto-shrink_800_800/0/1643972640053?e=2147483647&v=beta&t=ut7z08J3Tse1VIgise1nm46i-2BL2HhDUtcl8yXbnU8")
 user21 = User.new(
   {
     email: "james@test.com",
@@ -1691,7 +1705,7 @@ user21.save!
 print '*'
 STDOUT.flush
 
-user22photo = URI.open("https://media.licdn.com/dms/image/D4E03AQFBTTElDRL4ng/profile-displayphoto-shrink_800_800/0/1679822678597?e=1692230400&v=beta&t=dpM1OimpuT__VQUxbfdMfeBWKm8FEw0J2I4vy7XFOXo")
+user22photo = URI.open("https://media.licdn.com/dms/image/C4D03AQEupLdAhJ3JnQ/profile-displayphoto-shrink_800_800/0/1643972640053?e=2147483647&v=beta&t=ut7z08J3Tse1VIgise1nm46i-2BL2HhDUtcl8yXbnU8")
 user22 = User.new(
   {
     email: "edu@test.com",
@@ -1745,7 +1759,7 @@ user24.save!
 print '*'
 STDOUT.flush
 
-user25photo = URI.open("https://media.licdn.com/dms/image/C4E03AQE6S3Ka8QlbLg/profile-displayphoto-shrink_800_800/0/1632811836324?e=1692230400&v=beta&t=Z2xgkSHW5HJuTAtNuBOiniO-wt8M1-MyHsKH0_6leMo")
+user25photo = URI.open("https://media.licdn.com/dms/image/D4E03AQFBaxE7pQ1hcQ/profile-displayphoto-shrink_800_800/0/1675516737920?e=2147483647&v=beta&t=0Kk562XWQipnNe1jzArRKWVd5a0mThoIRYy54oJWqww")
 user25 = User.new(
   {
     email: "rudi@test.com",
